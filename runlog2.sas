@@ -1,0 +1,5 @@
+%logitplot( data=   WORK.PENALTY, target = death, var=victim, group= 10) 
+%logitplot( data=   WORK.PENALTY, target = death, var=defendant, group= 10) 
+%logitplot( data=   WORK.PENALTY, target = death, var=serious, group= 10) 
+%logitplot( data=   WORK.PENALTY, target = death, var=serious2, group= 10) 
+%logitplot( data=   WORK.PENALTY, target = death, var=culp, group= 10) 
