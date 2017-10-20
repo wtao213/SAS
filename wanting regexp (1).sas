@@ -51,6 +51,7 @@ data _null_;
         rexp3 = prxparse( "/(^\d{5}-\d{4}$)/" );
         rexp4 = prxparse( "/(^\d{5}$)|(^\d{5}-\d{4}$)/" );
         rexp5 = prxparse( "/^\d{5}($|-\d{4}$)/" );
+	rexp6 = prxparse( "/^\d{5}(-\d{4})?( *)$/");
 
         retain rexp: ;
         array rexp[*] rexp: ;
